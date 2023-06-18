@@ -1,0 +1,86 @@
+/*** Reseto estilos default ***/
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto Condensed', sans-serif;
+    box-sizing: border-box;
+}
+
+/*** Tipo de letra importado de google fonts***/
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300&display=swap');
+
+body {
+    background-color: #f1f1f1;
+}
+
+.header {
+    background-color: #2832f3;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 105px;
+    padding: 5px 10%;
+}
+
+.header .fotoPerfil img {
+    border-radius: 46%;
+    height: 80px;
+    width: auto;
+    transition: all 0.3s;
+}
+
+.header .fotoPerfil {
+    cursor: pointer;
+}
+
+.header .fotoPerfil img:hover {
+    transform: scale(1.2);
+}
+
+.header .nav-links {
+    list-style: none;
+}
+
+.header .nav-links li {
+    display: inline-block;
+    padding: 0 20px;
+}
+
+.header .nav-links li:hover {
+    transform: scale(1.1);
+}
+
+.header .nav-links a {
+    font-size: 25px;
+    color: white;
+    text-decoration: none;
+}
+
+.header .nav-links li a:hover {
+    color: #000000;
+}
+
+.header .btn button {
+    font-weight: 700;
+    color: #000000;
+    padding: 9px 25px;
+    background: #ffffff;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+}
+
+.header .btn button:hover {
+    background-color: #000000;
+    color: #ffffff;
+    transform: scale(1.1);
+}
+
+main {
+    padding: 20px 20px;
+}
+
+main p {
+    margin-top: 20px;
+}
