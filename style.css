@@ -80,6 +80,15 @@ body {
     transform: scale(1.1);
 }
 
+.tituloH1 {
+    text-align: center;
+}
+
+.descripcionEjercicios {
+    text-align: justify;
+    padding: 0 30px 0 30px;
+}
+
 main {
     padding: 20px 20px;
 }
